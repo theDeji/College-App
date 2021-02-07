@@ -1,5 +1,3 @@
-import React, { useEffect, useState } from "react";
-
 const menuItems = [
   {
     "name": "Open Tables",

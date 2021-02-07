@@ -1,4 +1,3 @@
-
 import React, { Component, useEffect, useState } from "react";
 import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem'
@@ -10,8 +9,6 @@ import { Link } from 'react-router-dom'
 import menuItems from './menuItems'
 import styled from 'styled-components'
 import './index.css';
-
-
 
 const styles = {
   list: {
@@ -31,19 +28,13 @@ const styles = {
 function Sidebar(props) {
 
   const [menu1, setMenu1] = useState(false)
-  const [menu2, setMenu2] = useState(false)
-  const [menu3, setMenu3] = useState(false)
-
-
 
   function handleClick(item) {
     switch (item) {
       case 'menu1':
         return setMenu1(!menu1)
-      case 'menu2':
-        return setMenu2(!menu2)
-      case 'menu3':
-        return setMenu3(!menu3)
+     default:
+       return 
     }
   }
 

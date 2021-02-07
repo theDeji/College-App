@@ -5,10 +5,6 @@ const { studentReducer } = require('./studentReducer');
 const { alertReducer } = require('./alertReducer');
 const { authReducer } = require('./authReducer');
 
-
-
-
-
 const rootReducer = combineReducers({
     student: studentReducer,
     alert: alertReducer,

@@ -2,8 +2,6 @@ import { teacherConstants } from '../constants';
 import { alertActions } from './alertActions';
 
 
-
-
 export const teacherActions = {
     addTeacher
 };

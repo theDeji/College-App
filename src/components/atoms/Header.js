@@ -7,12 +7,7 @@ import { useHistory } from "react-router-dom";
 import UserAvatar from 'react-user-avatar';
 import { Button } from 'react-bootstrap'
 
-
-
-
-
 function mapStateToProps(state) {
-
     return {
 
     }
@@ -24,22 +19,15 @@ function mapDispatchToProps(dispatch) {
     };
 }
 
-
-
 const Header = ({ props, openModal }) => {
     const [dropdownOpen, setDropdownOpen] = useState(false);
     const toggle = () => setDropdownOpen(prevState => !prevState);
 
     let history = useHistory();
 
-
     const handleLogout = () => {
         history.push("/");
         props.logout();
-    }
-
-    const goToEdit = () => {
-        history.push("/edit-profile");
     }
 
     return (

@@ -1,9 +1,6 @@
 import { studentConstants } from '../constants';
 import { alertActions } from './alertActions';
 
-
-
-
 export const studentActions = {
     addStudent
 };

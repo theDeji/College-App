@@ -54,10 +54,10 @@ html,
   transition: all 0.3s;
 }
 
-/* .auth-wrapper .form-control:focus {
+.auth-wrapper .form-control:focus {
   border-color: #167bff;
   box-shadow: none;
-} */
+}
 
 .auth-wrapper h3 {
   text-align: center;

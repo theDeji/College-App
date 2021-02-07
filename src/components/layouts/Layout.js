@@ -1,6 +1,5 @@
 import React from 'react';
 import Sidebar from "./Sidebar";
-import Header from "../atoms/Header";
 
 
 function Layout(props) {

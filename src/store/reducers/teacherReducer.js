@@ -2,7 +2,6 @@ import { teacherConstants } from '../constants';
 
 const ADD_TEACHER = teacherConstants.ADD_TEACHER
 
-
 export function teacherReducer(state = {
     loading: false,
     teachers: [

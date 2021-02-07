@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { teacherActions } from '../../store/actions';
 import Header from "../../components/atoms/Header";
 import { connect } from 'react-redux';
-import { useHistory } from "react-router-dom";
 import './index.css'
 
 
@@ -10,10 +9,8 @@ import './index.css'
 import TeacherForm from '../../components/atoms/TeacherForm'
 
 
-
 function mapStateToProps(state) {
     const teachers = state.teacher.teachers;
-
 
     return {
         teachers
@@ -94,6 +91,7 @@ class index extends Component {
                 <Header {...this.props} openModal={this.openModal} />
                 <div>
                     <h1 id='title'>Teachers</h1>
+                    <p style={{color:'white', textAlign:'center'}}><i>click on a teacher to view assigned students</i></p>
                     <table id='teachers'>
                         <tbody>
                             <tr>{this.renderTableHeader()}</tr>
