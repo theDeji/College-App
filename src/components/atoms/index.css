@@ -1,0 +1,50 @@
+.header {
+  position: sticky;
+  z-index: 3;
+  top: 0;
+  height: 60px;
+  background-color: rgb(78, 112, 114);
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+.user-avatar {
+  margin: 5px;
+  display: inline-block;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.user-avatar > div {
+  background-color: #d39e00 !important;
+}
+
+.avatar-dropdown {
+  display: inline-block;
+}
+
+.avatar-dropdown > button {
+  cursor: pointer !important;
+  background-color: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  display: inline-block !important;
+  margin: 0 !important;
+}
+
+.avatar-dropdown > .btn-secondary.focus,
+.btn-secondary:focus {
+  border: none !important;
+  border-color: #ffffff !important;
+  outline: none !important;
+}
+
+.modal-content {
+  border-radius: 0px !important;
+  text-align: center !important;
+  padding: 20px !important;
+}
+
+.add-button {
+  margin-right: 20px;
+}

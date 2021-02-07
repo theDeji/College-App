@@ -1,0 +1,16 @@
+#students td,
+#students th {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+#students tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#students th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  color: white;
+}
